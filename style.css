@@ -1,0 +1,563 @@
+/**Här har importerar jag min bakgrund**/
+body {
+    background-image: url(images/polo.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+/**Här stylear jag min personBild och hänvisar till klasserna som den består av**/
+.personBild{
+    width: 13%;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-100.5%, -50%);
+    border-radius: 50%;
+    z-index: 0;
+}
+.personBildRam{
+    width: 14vw;
+    height: 14vw;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-97%, -50%);
+    border-radius: 50%;
+    z-index: -1;
+    background-color: #977862;
+}
+.personBildRamKant{
+    height: 14.75vw;
+    width: 14.75vw;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-94.75%, -50%);
+    border-radius: 50%;
+    z-index: -2;
+    background-color:#312A25;
+}
+
+/*Här stylear jag namn, namnrutan och de olika kanterna*/
+.namnRuta{
+    height: 14.5vw;
+    width: 14.5vw;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-35%, -50%);
+    border-radius: 50%;
+    z-index: -3;
+    background-color: #E5E2D5;
+}
+.namnRutaRam{
+    height: 15.5vw;
+    width: 15.5vw;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-36%, -50%);
+    border-radius: 50%;
+    z-index: -4;
+    background-color: #312A25;
+}
+.namnRutaRamKant{
+    height: 16.25vw;
+    width: 16.25vw;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-36.75%, -50%);
+    border-radius: 50%;
+    z-index: -5;
+    background-color: #977862;
+}
+.namn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5vw;
+    width: 10vw;
+    color-scheme: #2C221D;
+    font-style: italic;
+    position: absolute;
+    transform: translate(-146%, -40%);
+    left: 60.5%;
+    top: 11.6%; 
+}
+
+/*Här stylear jag språkkunnighetrutan och språktitel*/
+.språkkunnighetRuta{
+    height: 47vh;
+    width: 13.5vw;
+    position: absolute;
+    top: 70vh;
+    left: 9vw;
+    transform: translate(-36.75%, -50%);
+    z-index: -1;
+    background-color: #E5E2D5;
+}
+.språkkunnighetRutaRam{
+    height: 49vh;
+    width: 14.5vw;
+    position: absolute;
+    top: 70vh;
+    left: 9vw;
+    transform: translate(-37.5%, -50%);
+    z-index: -2;
+    background-color: #977862;
+}
+.språkkunnighetRutaRamKant{
+    height: 51vh;
+    width: 15.6%;
+    position: absolute;
+    top: 70vh;
+    left: 9vw;
+    transform: translate(-38.25%, -50%);
+    z-index: -3;
+    background-color: #2C221D;
+}
+.språktitel{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2C221D;
+    font-size: 1.45vw;
+    text-decoration-line: underline;
+    z-index: 0;
+    position: absolute;
+    transform: translate(-8.25%, -20%);
+    left: 5.75vw;
+    top: 47vh;
+}
+
+/*Här stylear jag texten Java och rutan för Java*/
+.Java{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2C221D;
+    font-size: 1.2vw;
+    z-index: 0;
+    position: absolute;
+    transform: translate(-45%, -35%);
+    left: 6vw;
+    top: 54vh;
+}
+.javaRuta{
+    height: 4.5vh;
+    width: 6.5vw;
+    background-color: #793529;
+    position: absolute;
+    transform: translate(-25%, -25%);
+    left: 11vw;
+    top: 53vh;
+    z-index: 0;
+    border-style: solid;
+    border-width: 0.05vw;
+    border-color: #707070;
+}
+
+/*Här stylear jag texten Eng och rutan för Eng*/
+.Eng{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2C221D;
+    font-size: 1.2vw;
+    z-index: 0;
+    position: absolute;
+    transform: translate(-45%, 260%);
+    left: 6vw;
+    top: 54vh;
+}
+.engRuta{
+    height: 4.5vh;
+    width: 6.5vw;
+    background-color: #793529;
+    position: absolute;
+    transform: translate(-25%, 165%);
+    left: 11vw;
+    top: 53vh;
+    z-index: 0;
+    border-style: solid;
+    border-width: 0.05vw;
+    border-color: #707070;
+}
+
+/*Här stylear jag texten Jap och de fyllda och tomma rutorna för Jap*/
+.Jap{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2C221D;
+    font-size: 1.2vw;
+    z-index: 0;
+    position: absolute;
+    transform: translate(-45%, 560%);
+    left: 6vw;
+    top: 54vh;
+}
+.japRuta{
+    height: 4.5vh;
+    width: 5.6vw;
+    background-color: #793529;
+    position: absolute;
+    transform: translate(-28.6%, 355%);
+    left: 11vw;
+    top: 53vh;
+    z-index: 0;
+    border-style: solid;
+    border-width: 0.05vw;
+    border-color: #707070;
+
+}
+.japTom{
+    height: 4.5vh;
+    width: 1.5vw;
+    background-color: #FFFFFF;
+    position: absolute;
+    transform: translate(215%, 355%);
+    left: 11vw;
+    top: 53vh;
+    z-index: -1;
+    border-style: solid;
+    border-width: 0.05vw;
+    border-color: #707070;
+}
+
+/*Här stylear jag texten Sve och de fyllda och tomma rutorna för Sve*/
+.Sve{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2vw;
+    color: #2C221D;
+    z-index: 0;
+    position: absolute;
+    transform: translate(-45%, 890%);
+    left: 6vw;
+    top: 53vh;
+}
+.sveRuta{
+    height: 4.5vh;
+    width: 5.6vw;
+    background-color: #793529;
+    position: absolute;
+    transform: translate(-28.6%, 545%);
+    left: 11vw;
+    top: 53vh;
+    z-index: 0;
+    border-style: solid;
+    border-width: 0.05vw;
+    border-color: #707070;
+}
+.sveTom{
+    height: 4.5vh;
+    width: 1.5vw;
+    background-color: #FFFFFF;
+    position: absolute;
+    transform: translate(215%, 545%);
+    left: 11vw;
+    top: 53vh;
+    z-index: -1;
+    border-style:solid;
+    border-width: 0.05vw;
+    border-color: #707070;
+}
+
+/*Här stylear jag texten Fra och de fyllda och tomma rutorna för Fra*/
+.Fra{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2vw;
+    color: #2C221D;
+    z-index: 0;
+    position: absolute;
+    transform: translate(-45%, 1190%);
+    left: 6vw;
+    top: 53vh;
+}
+.fraRuta{
+    height: 4.5vh;
+    width: 5.6vw;
+    background-color: #793529;
+    position:absolute;
+    transform: translate(-28.6%, 735%);
+    left: 11vw;
+    top: 53vh;
+    z-index: 0;
+    border-style: solid;
+    border-width: 0.05vw;
+    border-color: #707070; 
+}
+.fraTom{
+    height: 4.5vh;
+    width: 1.5vw;
+    background-color: #FFFFFF;
+    position: absolute;
+    transform: translate(215%, 735%);
+    left: 11vw;
+    top: 53vh;
+    z-index: -1;
+    border-style:solid;
+    border-width: 0.05vw;
+    border-color: #707070;
+}
+
+
+.erfarenheterRuta{
+    height: 27vh;
+    width: 27vw;
+    background-color: #E5E2D5;
+    position: absolute;
+    transform: translate(-47.5%, -3%);
+    left: 46vw;
+    top: 64vh;
+    z-index: -2;
+}
+.erfarenheterRutaRam{
+    height: 30vh;
+    width: 28.5vw;  
+    background-color: #977862;
+    position: absolute;
+    transform: translate(-47.5%, -7.5%);
+    left: 46vw;
+    top: 64vh;
+    z-index: -3;    
+}
+.erfarenheterRutaRamKant{
+    height: 33vh;
+    width: 29.5vw;
+    background-color: #2C221D;
+    position: absolute;
+    transform: translate(-47.5%, -11%);
+    left: 46vw;
+    top: 64vh;
+    z-index: -4;
+}
+.erfarenheter{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2C221D;
+    font-size: 1.45vw;
+    text-decoration-line: underline;
+    z-index: 0;
+    position: absolute;
+    transform: translate(-3%, -20%);
+    left: 37.8vw;
+    top: 64.8vh;
+}
+
+
+.star1{
+    height: 1.65vw;
+    width: 1.65vw;
+    position: absolute;
+    transform: translate(120%, 820%);
+    left: 34vw;
+    top: 40vh;
+    z-index: 0;
+}
+.star2{
+    height: 1.65vw;
+    width: 1.65vw;
+    position: absolute;
+    transform: translate(120%, 1020%);
+    left: 34vw;
+    top: 40vh;
+    z-index: 0;
+}
+.star3{
+    height: 1.65vw;
+    width: 1.65vw;
+    position: absolute;
+    transform: translate(120%, 1220%);
+    left: 34vw;
+    top: 40vh;
+    z-index: 0;
+}
+
+
+.erfarenheter_rad1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2C221D;
+    font-size: 1.25vw;
+    z-index: 0;
+    position: absolute;
+    transform: translate(5%, -120%);
+    left: 38.7vw;
+    top: 72vh;
+}
+.erfarenheter_rad2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2C221D;
+    font-size: 1.25vw;
+    z-index: 0;
+    position: absolute;
+    transform: translate(5%, 100%);
+    left: 38.7vw;
+    top: 72vh;
+}
+.erfarenheter_rad3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2C221D;
+    font-size: 1.25vw;
+    z-index: 0;
+    position: absolute;
+    transform: translate(7%, 340%);
+    left: 38.7vw;
+    top: 72vh;
+}
+
+
+.utbildningsruta{
+    height: 36vh;
+    width: 12vw;
+    background-color:#E5E2D5;
+    position: absolute;
+    transform: translate(-22%, 117.5%);
+    left: 78vw;
+    top: 12vh;
+    z-index: 0;
+}
+.utbildningsrutaRam{
+    height: 39vh;
+    width: 13.5vw;
+    background-color: #977862;
+    position: absolute;
+    transform: translate(-21%, 107.5%);
+    left: 77.5vw;
+    top: 11vh;
+    z-index: -1;
+}
+.utbildningsrutaRamKant{
+    height: 42vh;
+    width: 14.5vw;
+    background-color: #312A25;
+    position: absolute;
+    transform: translate(-13%, 98.5%);
+    left: 76vw;
+    top: 10vh;
+    z-index: -2;
+}
+
+
+.utbildning{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2C221D;
+    font-size: 1.45vw;
+    text-decoration-line: underline;
+    z-index: 0;
+    position: absolute;
+    transform: translate(-45%, 1100%);
+    left: 81vw;
+    top: 14vh; 
+}
+.utbildning_rad1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2C221D;
+    width: 10vw;
+    font-size: 1.25vw;
+    z-index: 0;
+    position: absolute;
+    transform: translate(-35%, 620%);
+    left: 80vw;
+    top: 21vh;
+    text-align: center;
+
+}
+.utbildning_rad2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2C221D;
+    width: 10vw;
+    font-size: 1.25vw;
+    z-index: 0;
+    position: absolute;
+    transform: translate(-35%, 540%);
+    left: 80vw;
+    top: 21vh;
+    text-align: center;
+
+}
+
+/**
+.intressenruta{
+    height: 31vh;
+    width: 18vw;
+    background-color:#E5E2D5;
+    position: absolute;
+    transform: translate(-11.5%, 0%);
+    left: 76vw;
+    top: 64vh;
+    z-index: 0;
+}
+
+.intressenrutaRam{
+    height: 34vh;
+    width: 19.5vw;
+    background-color:#977862;
+    position: absolute;
+    transform: translate(-14.5%, -4.5%);
+    left: 76vw;
+    top: 64vh;
+    z-index: -1;
+}
+
+.intressenrutaRamBorder{
+    height: 37vh;
+    width: 21vw;
+    background-color:#312A25;
+    position: absolute;
+    transform: translate(-17%, -8%);
+    left: 76vw;
+    top: 64vh;
+    z-index: -2;
+}
+
+.intresse_och_kuriosa{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2C221D;
+    font-size: 1.8vw;
+    text-decoration-line: underline;
+    z-index: 0;
+    position: absolute;
+    transform: translate(-40%, 550%);
+    left: 81vw;
+    top: 14vh;   
+    text-align: center;
+}
+
+.intressen{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2C221D;
+    width: 16vw;
+    font-size: 1.8vw;
+    z-index: 0;
+    position: absolute;
+    transform: translate(-13.5%, -35%);
+    left: 77vw;
+    top: 76.6vh;
+    text-align: center;
+}
+**/
+
+.linkedin{
+    height: 14vw;
+    width: 14vw;
+    z-index: 0;
+    position: absolute;
+    right: 5.5vw;
+    top: -4.5vh;
+}
+.twitter{
+    height: 8.2vw;
+    width: 8.2vw;
+    z-index: 0;
+    position: absolute;
+    right: 8.5vw;
+    top: 21vh;
+}
+.facebook{
+    height: 7.4vw;
+    width: 7.4vw;
+    z-index: 0;
+    position: absolute;
+    right: 19.75vw;
+    top: 2vh;
+}
+.instagram{
+    height: 8.1vw;
+    width: 8.1vw;
+    z-index: 0;
+    position: absolute;
+    right: 19.3vw;
+    top: 20.5vh;
+}
+
